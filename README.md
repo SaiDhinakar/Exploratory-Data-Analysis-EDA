@@ -21,6 +21,21 @@ The analysis uses the Heart Failure Prediction Dataset from Kaggle which include
 - **ST_Slope**: Slope of the peak exercise ST segment (Up, Flat, Down)
 - **HeartDisease**: Output class (1: heart disease, 0: normal)
 
+## Visualizations
+
+### Age Distribution by Heart Disease
+![Distribution of Age by Heart Disease](screenshots/distribution-of-age-by-heart-disease.png)
+
+The histogram shows that patients with heart disease (blue) tend to be older on average compared to those without heart disease (red).
+
+### Correlation Matrix
+![Correlation Matrix](screenshots/correlation-analysis.png)
+
+The correlation matrix reveals important relationships:
+- Heart disease shows positive correlation with Age (0.28) and Oldpeak (0.4)
+- Heart disease shows negative correlation with MaxHR (-0.4) and Cholesterol (-0.23)
+- Age is negatively correlated with MaxHR (-0.38)
+
 ## Analysis Performed
 
 ### 1. Data Quality Assessment
